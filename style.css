@@ -1,0 +1,167 @@
+body{
+	font-family: 'Roboto Slab', serif;
+	
+}
+
+h1{
+	font-family: 'Alfa Slab One', cursive;
+	line-height: 1.5em;
+}
+
+h3{
+	font-family: 'Montserrat', sans-serif;
+}
+h2{
+	font-family: 'Montserrat', sans-serif;
+	line-height:5rem;
+	font-size: 2.5rem;
+}
+
+
+/*title*/
+#title{
+	background-color: #ff414d;
+    color: white;  
+
+}
+.container-fluid{
+	padding: 3% 15% 10%;
+}
+/*navbar*/
+.navbar-brand{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:2rem;
+	font-weight: bold;
+}
+
+
+.nav-link{
+	font-size: 1.5rem;
+}
+.nav-item{
+	padding-left:2rem;
+	padding-right:2rem; 
+}
+
+.navbar{
+	padding: 0 0 4.5rem;
+}
+
+.bot{
+	margin: 5% 3% 5% 0;
+}
+/*title img*/
+.imm{
+	width: 45%;
+	transform: rotate(25deg);
+	position: absolute;
+	left: 20px;
+}
+
+/*feature box*/
+#features{
+	margin: 0;
+	padding: 7%;
+	background-color: white;
+	position: relative;
+	z-index: 1;
+}
+.fbox{
+	text-align: center;
+	padding: 5%;
+	
+}
+
+.icon{
+	margin: 5%;
+	color: #ff531a;
+}
+
+.icon:hover{
+	color: #ff414d;
+}
+
+/*prising*/
+.headp{
+	font-family: 'Rubik', sans-serif;
+	font-size:3rem; 
+}
+.prising-head{
+	font-family: 'Rubik', sans-serif;
+	font-size:2rem; 
+}
+
+.listt{
+	font-family: 'Dancing Script', cursive;
+	font-size: 1.5rem;
+
+}
+
+
+/*testimonials section*/
+#testimonials{
+	
+	background-color: #ff704d;
+	text-align: center;
+	color: white;
+}
+
+.t-image{
+	width: 10%;
+	border-radius:100%; 
+	margin: 1.5rem;
+}
+.carousel-item{
+	padding: 7%;
+}
+/*press*/
+#press{
+	background-color: #ff704d;
+	text-align: center;
+}
+
+.press-img{
+	width:15%; 
+	padding:10px 5px 30px;	 
+}
+
+/*ennd section */
+.ee{
+	text-align: center;
+ 	background-color:#ff514c;
+ 	color:white;
+ 	padding:0 2% 2% 2% ; 
+}
+.cc{
+	font-family: 'Source Code Pro', monospace;
+	 	font-size: 2.5rem;
+}
+#ennd{
+	padding:3% 0; 
+}
+
+.bbb{
+	margin:1%;
+}
+
+.ll{
+	margin: 0.5%;
+	color: black;
+}
+
+/*size is less than 800px*/
+@media (max-width:768px){
+
+	#title{
+		text-align: center;
+	}
+	.imm{
+		position: static;
+		transform: rotate(0);
+	}
+	h2{
+		font-size:2rem; 
+		line-height:3.5rem;
+	}
+
+ }
